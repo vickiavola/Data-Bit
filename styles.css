@@ -255,9 +255,6 @@ main-tables-container::-webkit-scrollbar {
      color: var(--warm-black);
 }
 
-
-
-
 .main-commissions-table{
      width: 70%;
      min-width: 235px;
