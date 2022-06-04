@@ -101,6 +101,7 @@ main {
      background-color: var(--off-white);
 }
 
+
 .main-exchange-container {
      width: 100%;
      height: auto;
@@ -143,22 +144,28 @@ main {
      color: #757575;
 }
 
-.main-tables-container{
+.main-table-container{
      display: flex;
      overflow: auto;
      scroll-behavior: smooth;
+
+     display: flex;
+     height: 360px;
+     overflow-x: scroll;
+     overscroll-behavior-x: contain;
+     scroll-snap-type: x proximity;
 }
 
-main-tables-container::-webkit-scrollbar {
-     display: none;
-}
+
+
 
 .main-currency-table{
      width: 70%;
+     scroll-snap-align: center;
      min-width: 235px;
      max-width:500px;
      height: 360px;
-     margin: 0 auto;
+     margin: 0 10px auto;
      font-family: "Inter", sans-serif;
 }
 
@@ -256,10 +263,11 @@ main-tables-container::-webkit-scrollbar {
 
 .main-commissions-table{
      width: 70%;
+     scroll-snap-align: center;
      min-width: 235px;
      max-width:500px;
      height: 360px;
-     margin: 0 auto;
+     margin: 0 10px auto;
      font-family: "Inter", sans-serif;
 }
 
