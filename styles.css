@@ -154,6 +154,7 @@ main {
      overflow-x: scroll;
      overscroll-behavior-x: contain;
      scroll-snap-type: x proximity;
+     padding-top: 20px;
 }
 
 
